@@ -107,3 +107,31 @@ Expected ident
  ✓ Compiled in 27ms
  GET /hu/legal 200 in 268ms (compile: 128ms, proxy.ts: 68ms, render: 71ms)
  GET /hu/legal 200 in 40ms (compile: 3ms, proxy.ts: 11ms, render: 26ms)
+ ✓ Compiled in 81ms
+ ✓ Compiled in 172ms
+ ✓ Compiled in 317ms
+ GET /hu/legal 200 in 54ms (compile: 10ms, proxy.ts: 6ms, render: 38ms)
+ GET /hu/legal 200 in 42ms (compile: 4ms, proxy.ts: 5ms, render: 33ms)
+ GET /hu/legal 200 in 225ms (compile: 5ms, proxy.ts: 5ms, render: 214ms)
+ GET /hu 200 in 230ms (compile: 158ms, proxy.ts: 4ms, render: 68ms)
+ GET /en 200 in 72ms (compile: 11ms, proxy.ts: 13ms, render: 48ms)
+ ✓ Compiled in 168ms
+ ✓ Compiled in 132ms
+ ✓ Compiled in 134ms
+Error: ENVIRONMENT_FALLBACK: There is no `timeZone` configured, this can lead to markup mismatches caused by environment differences. Consider adding a global default: https://next-intl.dev/docs/configuration#time-zone
+    at Navigation (app/components/Navigation.tsx:11:28)
+   9 | export default function Navigation() {
+  10 |   const [isMenuOpen, setIsMenuOpen] = useState(false);
+> 11 |   const t = useTranslations();
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <nav className="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-md border-b border-gray-800"> {
+  code: 'ENVIRONMENT_FALLBACK',
+  originalMessage: 'There is no `timeZone` configured, this can lead to markup mismatches caused by environment differences. Consider adding a global default: https://next-intl.dev/docs/configuration#time-zone'
+}
+ GET /en 200 in 515ms (compile: 153ms, proxy.ts: 11ms, render: 352ms)
+ GET /en 200 in 127ms (compile: 14ms, proxy.ts: 11ms, render: 102ms)
+ GET /en 200 in 116ms (compile: 6ms, proxy.ts: 4ms, render: 106ms)
+ GET /en 200 in 104ms (compile: 11ms, proxy.ts: 5ms, render: 88ms)
+ GET /en 200 in 107ms (compile: 12ms, proxy.ts: 5ms, render: 90ms)

@@ -44,13 +44,13 @@ export default function LanguageSelector() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors text-gray-300 hover:text-[#4CD3B7]"
+        className="flex items-center gap-1.5 px-2 py-1.5 md:px-3 md:py-2 rounded-lg bg-gray-800 md:bg-transparent hover:bg-gray-700 transition-colors text-gray-300 hover:text-[#4CD3B7]"
         aria-label="Select language"
       >
-        <span className="text-xl">{currentLanguage.flag}</span>
-        <span className="hidden sm:inline text-sm">{currentLanguage.name}</span>
+        <span className="text-lg md:text-base">{currentLanguage.flag}</span>
+        <span className="hidden md:inline text-sm">{currentLanguage.name}</span>
         <svg
-          className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+          className={`hidden md:block w-3 h-3 transition-transform ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
