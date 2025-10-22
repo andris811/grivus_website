@@ -92,3 +92,18 @@ Expected ident
  GET /zh/legal 200 in 201ms (compile: 125ms, proxy.ts: 8ms, render: 68ms)
  GET /en/legal 200 in 51ms (compile: 6ms, proxy.ts: 7ms, render: 37ms)
  GET /zh/legal 200 in 45ms (compile: 11ms, proxy.ts: 5ms, render: 29ms)
+ ✓ Compiled in 4ms
+ ✓ Compiled in 19ms
+ GET /zh/legal 200 in 289ms (compile: 145ms, proxy.ts: 87ms, render: 57ms)
+ GET /zh/legal 200 in 44ms (compile: 4ms, proxy.ts: 8ms, render: 32ms)
+ ✓ Compiled in 93ms
+ GET /zh/legal 200 in 219ms (compile: 108ms, proxy.ts: 65ms, render: 45ms)
+ GET /zh/legal 200 in 35ms (compile: 4ms, proxy.ts: 6ms, render: 26ms)
+ ✓ Compiled in 112ms
+ ✓ Compiled in 81ms
+ GET /zh 200 in 200ms (compile: 134ms, proxy.ts: 7ms, render: 59ms)
+ GET /hu 200 in 52ms (compile: 10ms, proxy.ts: 8ms, render: 33ms)
+ GET /hu/legal 200 in 190ms (compile: 133ms, proxy.ts: 5ms, render: 51ms)
+ ✓ Compiled in 27ms
+ GET /hu/legal 200 in 268ms (compile: 128ms, proxy.ts: 68ms, render: 71ms)
+ GET /hu/legal 200 in 40ms (compile: 3ms, proxy.ts: 11ms, render: 26ms)

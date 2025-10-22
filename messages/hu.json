@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "features": "Funkciók",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "title": "Alakíts ki jobb",
+    "titleHighlight": "Szokásokat Naponta",
+    "description": "Kövesd nyomon a szokásaidat intelligens sorozatokkal, vizualizáld a haladásod gyönyörű hőtérképekkel, és rögzítsd a teljesítéseket közvetlenül a kezdőképernyődről.",
+    "downloadButton": "Letöltés az App Store-ból"
+  },
+  "testimonials": {
+    "title": "Ezrek Kedvence",
+    "subtitle": "Nézd meg, mit mondanak a felhasználóink",
+    "items": [
+      {
+        "text": "A kezdőképernyő widgetek mindent megváltoztattak! Az alkalmazás megnyitása nélkül is rögzíthetem a szokásaimat. A sorozatom még soha nem volt ilyen hosszú!",
+        "author": "Sarah Mitchell",
+        "flag": "🇺🇸"
+      },
+      {
+        "text": "Végre egy szokáskövető, amely megérti a menetrend változásokat. Az intelligens sorozatkövetés briliáns—nem büntet a tervezett szünetek miatt.",
+        "author": "Thomas Müller",
+        "flag": "🇩🇪"
+      },
+      {
+        "text": "A hőtérkép nézet annyira motiváló! A haladásom vizualizálása miatt minden nap visszajövök. A legjobb szokáskövető, amit valaha használtam.",
+        "author": "Yuki Tanaka",
+        "flag": "🇯🇵"
+      },
+      {
+        "text": "Imádom, hogy minden szokást testreszabhatok színekkel és ikonokkal. Személyessé és szórakoztatóvá teszi a nyomon követést. A widgetek is szuper hasznosak!",
+        "author": "Lucas Silva",
+        "flag": "🇧🇷"
+      },
+      {
+        "text": "Az iCloud szinkronizálás zökkenőmentes. Reggel az iPhone-omon rögzítem, este az iPademen nézem a haladást. Minden tökéletesen működik!",
+        "author": "Sophie Dubois",
+        "flag": "🇫🇷"
+      },
+      {
+        "text": "Egyszerű, szép és hatékony. A statisztikák segítenek megérteni a mintáimat. Minden fillért megér a Pro verzió!",
+        "author": "Raj Patel",
+        "flag": "🇮🇳"
+      }
+    ]
+  },
+  "features": {
+    "title": "Erőteljes Funkciók",
+    "subtitle": "Minden, amire szükséged van tartós szokások kialakításához és fenntartásához",
+    "visualProgress": {
+      "title": "Vizuális Haladáskövetés",
+      "description": "Gyönyörű hőtérkép naptárak és részletes grafikonok mutatják a szokásmintáidat az idő múlásával, a haladást kézzelfoghatóvá és motiválóvá téve."
+    },
+    "smartStreaks": {
+      "title": "Intelligens Sorozatok",
+      "description": "Intelligens sorozatkövetés, amely tiszteletben tartja a menetrend változásokat, kihagyott napokat és tervezett szüneteket—nincs több igazságtalan büntetés."
+    },
+    "widgets": {
+      "title": "Kezdőképernyő Widgetek",
+      "description": "Interaktív widgetek kicsi, közepes és nagy méretben, amelyekkel az alkalmazás megnyitása nélkül rögzítheted a teljesítéseket. Villámgyors!"
+    },
+    "scheduling": {
+      "title": "Rugalmas Ütemezés",
+      "description": "Állítsd be, hogy a hét mely napjain legyen aktív minden szokás. Tökéletes edzéstervekhez, munkarendekhez vagy csak hétvégén végzett szokásokhoz."
+    },
+    "personalization": {
+      "title": "Személyre Szabás",
+      "description": "Válassz a rendszer ikonjai és színei közül, hogy minden szokás egyedivé váljon. Hozz létre egy személyes követési élményt."
+    },
+    "icloud": {
+      "title": "iCloud Szinkronizálás és Mentés",
+      "description": "Automatikus szinkronizálás az összes iOS eszközön iCloud segítségével. Exportálhatod és importálhatod az adataidat a teljes nyugalom érdekében."
+    }
+  },
+  "showcase": {
+    "title": "Nézd Működés Közben",
+    "subtitle": "Kövesd a szokásokat, vizualizáld a haladást és maradj motivált minden nap",
+    "screen1": {
+      "title": "Kövesd Nyomon a Szokásaidat",
+      "description": "Egyszerű napi rögzítés testreszabható célokkal"
+    },
+    "screen2": {
+      "title": "Vizualizáld a Haladást",
+      "description": "Gyönyörű hőtérkép és statisztikák"
+    },
+    "screen3": {
+      "title": "Egyedi Szokáskártyák",
+      "description": "Szabd személyre ikonokkal és színekkel"
+    }
+  },
+  "footer": {
+    "termsPrivacy": "Feltételek és Adatvédelem",
+    "contact": "Kapcsolat",
+    "copyright": "Grivus. Minden jog fenntartva."
+  },
+  "legal": {
+    "backToHome": "Vissza a Főoldalra",
+    "title": "Grivus – Felhasználási feltételek és adatvédelmi irányelvek",
+    "effectiveDate": "Hatálybalépés dátuma:",
+    "effectiveDateValue": "2025. szeptember 29.",
+    "lastUpdated": "Utolsó frissítés:",
+    "lastUpdatedValue": "2025. október 12.",
+    "welcome": "Üdvözöljük a Grivusban, egy személyes szokáskövetőben, amely segít rutinok kialakításában, a következetesség megőrzésében és a haladás megünneplésében. A Grivus használatával Ön elfogadja a következő Felhasználási Feltételeket és Adatvédelmi Szabályzatot.",
+    "section1": {
+      "title": "🧭 1. Általános Szerződési Feltételek",
+      "p1": "A Grivust Varga András (AVDev) fejleszti és tartja karban.",
+      "p2": "Az alkalmazás kizárólag az Apple App Store-ban érhető el, és megfelel az Apple fejlesztői és adatvédelmi irányelveinek.",
+      "p3": "Ezek a feltételek az alkalmazás minden felhasználójára vonatkoznak, függetlenül attól, hogy az ingyenes vagy a Pro verziót használják."
+    },
+    "section2": {
+      "title": "📋 2. Felhasználási Feltételek",
+      "s1": {
+        "title": "2.1. Az alkalmazás használata",
+        "content": "A Grivust a személyes termelékenység és az önfejlesztés érdekében tervezték. Ön beleegyezik, hogy felelősségteljesen és kizárólag törvényes célokra használja."
+      },
+      "s2": {
+        "title": "2.2. Tulajdonjog és szellemi tulajdon",
+        "content": "A Grivus összes tartalma, dizájnja és funkciója – beleértve a nevét, logóját és felhasználói felületét – Varga András (AVDev) tulajdonát képezi. Az alkalmazás bármely részét nem másolhatja, módosíthatja, terjesztheti vagy értékesítheti előzetes írásbeli engedély nélkül."
+      },
+      "s3": {
+        "title": "2.3. Alkalmazáson belüli vásárlások",
+        "p1": "A Grivus Pro egy egyszeri vásárlás, amely további funkciókat, például korlátlan szokásokat, kibővített statisztikákat és widgeteket old fel.",
+        "p2": "Minden tranzakciót biztonságosan dolgozunk fel az Apple App Store-on keresztül. A fejlesztő nem gyűjt és nem tárol semmilyen fizetési adatot. A visszatérítéseket és a számlázási problémákat az Apple kezeli."
+      },
+      "s4": {
+        "title": "2.4. Felelősség korlátozása",
+        "content": "A Grivus \"ahogy van\" alapon, bármilyen garancia nélkül kerül biztosításra. Bár minden erőfeszítést megteszünk a megbízhatóság és a stabilitás biztosítása érdekében, a fejlesztő nem vállal felelősséget az adatvesztésért, szinkronizálási hibákért vagy az alkalmazás használatából vagy használatának lehetetlenségéből eredő károkért."
+      },
+      "s5": {
+        "title": "2.5. Megszüntetés vagy változtatások",
+        "content": "A fejlesztő fenntartja a jogot, hogy bármikor módosítsa vagy megszüntesse az alkalmazást, a funkciókat vagy az árakat. Frissítések jelenhetnek meg hibák javítása, a teljesítmény javítása vagy a felhasználói élmény fokozása érdekében."
+      }
+    },
+    "section3": {
+      "title": "🔒 3. Adatvédelmi irányelvek",
+      "intro": "A Grivus tiszteletben tartja az Ön adatainak védelmét. Ez a szakasz ismerteti, hogyan kezeli az adatait.",
+      "s1": {
+        "title": "3.1. Általunk gyűjtött információk",
+        "personalData": "Személyes adatok:",
+        "personalDataText": "A Grivus nem követeli meg fiók létrehozását. Nem gyűjtünk személyazonosításra alkalmas adatokat (például a nevét, e-mail címét vagy telefonszámát).",
+        "appData": "Alkalmazásadatok:",
+        "appDataText": "Az Ön által megadott adatokat (például szokásokat, emlékeztetőket vagy beállításokat) helyben tároljuk az eszközén, és nem továbbítjuk nekünk.",
+        "analytics": "Analitika/Követés:",
+        "analyticsText": "A Grivus nem használ harmadik féltől származó elemző, követő vagy hirdetési eszközöket."
+      },
+      "s2": {
+        "title": "3.2. Hogyan használjuk fel az adatait",
+        "p1": "Az adatait csak az alkalmazáson belül használjuk fel a szokások követésére, emlékeztetőkre és a haladás elemzésére.",
+        "p2": "Nem adjuk el, nem adjuk bérbe és nem osztjuk meg az adatait senkivel."
+      },
+      "s3": {
+        "title": "3.3. Adattárolás és biztonság",
+        "p1": "Minden szokásadatot helyben tárolunk az eszközén.",
+        "p2": "Ha engedélyezi az iCloud szinkronizálást, adatait biztonságosan tároljuk az Apple iCloud-fiókjában, ahol az Apple iCloud adatvédelmi szabályzata érvényes.",
+        "p3": "Az alkalmazás törlésével eltávolítja a helyi adatait az eszközéről. Az iCloud-adatok az iOS-beállítások → Apple ID → iCloud → Tárhely kezelése → Grivus menüpontban távolíthatók el."
+      },
+      "s4": {
+        "title": "3.4. Értesítések",
+        "p1": "Ha engedélyezi az értesítéseket, a Grivus helyi emlékeztetőket ütemez a szokásaihoz.",
+        "p2": "Ezeket teljes mértékben az eszközén kezeli – nincsenek külső szerverek vagy személyes azonosítók."
+      },
+      "s5": {
+        "title": "3.5. Gyermekek adatainak védelme",
+        "content": "A Grivus nem 13 év alatti gyermekeknek szól, és tudatosan nem gyűjt tőlük adatokat. Ha úgy gondolja, hogy egy gyermek adatokat küldött be az alkalmazáson keresztül, kérjük, vegye fel velünk a kapcsolatot segítségért."
+      }
+    },
+    "section4": {
+      "title": "💳 4. Pro funkciók és vásárlások",
+      "p1": "A Grivus Pro további funkciókat kínál, mint például korlátlan szokások, részletes statisztikák és widgetek.",
+      "p2": "A vásárlásokat az Apple biztonságosan dolgozza fel az App Store-on keresztül.",
+      "p3": "A fejlesztőnek nincs hozzáférése a fizetési adataihoz, és minden visszatérítéssel vagy számlázási problémával az Apple-támogatásnak kell foglalkoznia."
+    },
+    "section5": {
+      "title": "⚖️ 5. Az Ön jogai",
+      "p1": "Mivel a Grivus nem gyűjt közvetlenül személyes adatokat, nincsenek fiók- vagy szerveradatok, amelyeket törölni vagy exportálni kellene.",
+      "p2": "Minden információ helyben vagy az Ön iCloud-fiókjában tárolódik, az Ön felügyelete alatt."
+    },
+    "section6": {
+      "title": "🔄 6. A szabályzat frissítései",
+      "p1": "Időről időre frissíthetjük ezt a szabályzatot az alkalmazás fejlesztéseinek vagy a jogi követelményeknek megfelelően.",
+      "p2": "Minden frissítés az alkalmazáson belül, valamint a hivatalos Grivus weboldalon vagy a Notion oldalon jelenik meg."
+    },
+    "section7": {
+      "title": "📬 7. Kapcsolatfelvétel",
+      "intro": "Ha kérdése van ezekkel a Feltételekkel vagy az Adatvédelmi Szabályzattal kapcsolatban, kérjük, vegye fel velünk a kapcsolatot:",
+      "visitWebsite": "Látogassa meg a weboldalamat és vegye fel velem a kapcsolatot"
+    },
+    "footer": {
+      "copyright": "© 2025 Varga András (AVDev). Minden jog fenntartva.",
+      "tagline": "Grivus – Építs jobb szokásokat."
+    }
+  }
+}

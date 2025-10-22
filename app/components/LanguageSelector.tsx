@@ -8,6 +8,7 @@ import { useState, useEffect, useRef } from 'react';
 const languages = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
   { code: 'zh', name: '中文', flag: '🇨🇳' },
+  { code: 'hu', name: 'Magyar', flag: '🇭🇺' },
 ];
 
 export default function LanguageSelector() {
@@ -17,7 +18,7 @@ export default function LanguageSelector() {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   // Extract current locale from pathname
-  const currentLocale = pathname.startsWith('/zh') ? 'zh' : 'en';
+  const currentLocale = pathname.startsWith('/zh') ? 'zh' : pathname.startsWith('/hu') ? 'hu' : 'en';
   const currentLanguage = languages.find(lang => lang.code === currentLocale) || languages[0];
 
   useEffect(() => {
@@ -33,7 +34,7 @@ export default function LanguageSelector() {
 
   const handleLanguageChange = (languageCode: string) => {
     // Remove the current locale from the pathname
-    const pathWithoutLocale = pathname.replace(/^\/(en|zh)/, '');
+    const pathWithoutLocale = pathname.replace(/^\/(en|zh|hu)/, '');
     // Navigate to the new locale
     router.push(`/${languageCode}${pathWithoutLocale || '/'}`);
     setIsOpen(false);
