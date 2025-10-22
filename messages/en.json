@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "features": "Features",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Build Better",
+    "titleHighlight": "Habits Daily",
+    "description": "Track your habits with intelligent streaks, visualize progress with beautiful heatmaps, and log completions right from your home screen.",
+    "downloadButton": "Download on App Store"
+  },
+  "testimonials": {
+    "title": "Loved by Thousands",
+    "subtitle": "See what our users have to say"
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to build and maintain lasting habits",
+    "visualProgress": {
+      "title": "Visual Progress Tracking",
+      "description": "Beautiful heatmap calendars and detailed charts show your habit patterns over time, making progress tangible and motivating."
+    },
+    "smartStreaks": {
+      "title": "Smart Streaks",
+      "description": "Intelligent streak tracking that respects your schedule changes, skipped days, and planned breaks—no more unfair penalties."
+    },
+    "widgets": {
+      "title": "Home Screen Widgets",
+      "description": "Interactive widgets in small, medium, and large sizes let you log completions without opening the app. Lightning fast!"
+    },
+    "scheduling": {
+      "title": "Flexible Scheduling",
+      "description": "Set which days of the week each habit is active. Perfect for gym routines, work schedules, or weekend-only habits."
+    },
+    "personalization": {
+      "title": "Personalization",
+      "description": "Choose from system icons and colors to make each habit uniquely yours. Create a tracking experience that feels personal."
+    },
+    "icloud": {
+      "title": "iCloud Sync & Backup",
+      "description": "Automatically sync across all iOS devices with iCloud. Export and import your data for complete peace of mind."
+    }
+  },
+  "showcase": {
+    "title": "See It In Action",
+    "subtitle": "Track habits, visualize progress, and stay motivated every day",
+    "screen1": {
+      "title": "Track Your Habits",
+      "description": "Simple daily logging with customizable targets"
+    },
+    "screen2": {
+      "title": "Visualize Progress",
+      "description": "Beautiful heatmap and statistics"
+    },
+    "screen3": {
+      "title": "Custom Habit Cards",
+      "description": "Personalize with icons and colors"
+    }
+  },
+  "footer": {
+    "termsPrivacy": "Terms & Privacy",
+    "contact": "Contact",
+    "copyright": "Grivus. All rights reserved."
+  }
+}

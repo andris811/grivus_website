@@ -1,5 +1,7 @@
 'use client';
 
+'use client';
+
 import { useEffect, useRef, ReactNode } from 'react';
 
 interface ScrollAnimationProps {
@@ -12,6 +14,7 @@ export default function ScrollAnimation({ children, className = '', delay = 0 }:
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const element = ref.current;
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -28,13 +31,13 @@ export default function ScrollAnimation({ children, className = '', delay = 0 }:
       }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    if (element) {
+      observer.observe(element);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (element) {
+        observer.unobserve(element);
       }
     };
   }, [delay]);

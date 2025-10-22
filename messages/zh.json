@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "features": "功能",
+    "contact": "联系"
+  },
+  "hero": {
+    "title": "养成更好的",
+    "titleHighlight": "每日习惯",
+    "description": "通过智能连续打卡追踪习惯，用精美的热力图可视化进度，直接从主屏幕记录完成情况。",
+    "downloadButton": "App Store 下载"
+  },
+  "testimonials": {
+    "title": "深受用户喜爱",
+    "subtitle": "看看用户怎么说"
+  },
+  "features": {
+    "title": "强大功能",
+    "subtitle": "建立和保持持久习惯所需的一切",
+    "visualProgress": {
+      "title": "可视化进度追踪",
+      "description": "精美的热力图日历和详细图表展示您的习惯模式，让进度可见且富有激励性。"
+    },
+    "smartStreaks": {
+      "title": "智能连续打卡",
+      "description": "智能连续打卡追踪尊重您的时间表变化、跳过的日子和计划的休息——不再有不公平的惩罚。"
+    },
+    "widgets": {
+      "title": "主屏幕小组件",
+      "description": "小、中、大尺寸的交互式小组件让您无需打开应用即可记录完成情况。超快速！"
+    },
+    "scheduling": {
+      "title": "灵活的时间安排",
+      "description": "设置每个习惯在一周中的哪些天活跃。非常适合健身计划、工作安排或仅限周末的习惯。"
+    },
+    "personalization": {
+      "title": "个性化定制",
+      "description": "从系统图标和颜色中选择，使每个习惯独一无二。创建个性化的追踪体验。"
+    },
+    "icloud": {
+      "title": "iCloud 同步与备份",
+      "description": "通过 iCloud 自动同步到所有 iOS 设备。导出和导入您的数据，完全安心。"
+    }
+  },
+  "showcase": {
+    "title": "实际应用",
+    "subtitle": "追踪习惯、可视化进度，每天保持动力",
+    "screen1": {
+      "title": "追踪您的习惯",
+      "description": "简单的每日记录，可自定义目标"
+    },
+    "screen2": {
+      "title": "可视化进度",
+      "description": "精美的热力图和统计数据"
+    },
+    "screen3": {
+      "title": "自定义习惯卡片",
+      "description": "用图标和颜色个性化"
+    }
+  },
+  "footer": {
+    "termsPrivacy": "条款与隐私",
+    "contact": "联系",
+    "copyright": "Grivus. 保留所有权利。"
+  }
+}

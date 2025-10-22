@@ -1,0 +1,32 @@
+
+> grivus@0.1.0 dev
+> next dev
+
+   ▲ Next.js 16.0.0 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.71.121:3000
+
+ ✓ Starting...
+ ✓ Ready in 1698ms
+ ○ Compiling /[locale] ...
+ GET /en 404 in 7.7s (compile: 7.3s, proxy.ts: 192ms, render: 237ms)
+ GET /zh 404 in 85ms (compile: 13ms, proxy.ts: 9ms, render: 63ms)
+ GET /en 404 in 77ms (compile: 10ms, proxy.ts: 6ms, render: 60ms)
+ ✓ Compiled in 337ms
+ GET /zh 404 in 528ms (compile: 255ms, proxy.ts: 9ms, render: 264ms)
+ GET /zh 404 in 241ms (compile: 119ms, proxy.ts: 10ms, render: 111ms)
+ GET /en 404 in 69ms (compile: 9ms, proxy.ts: 5ms, render: 55ms)
+ GET /en 404 in 87ms (compile: 14ms, proxy.ts: 10ms, render: 63ms)
+ ✓ Compiled in 43ms
+ GET /en 404 in 308ms (compile: 167ms, proxy.ts: 13ms, render: 128ms)
+ GET /en 404 in 63ms (compile: 7ms, proxy.ts: 5ms, render: 51ms)
+ ✓ Compiled in 57ms
+ GET /en 404 in 294ms (compile: 144ms, proxy.ts: 5ms, render: 145ms)
+ HEAD /en 404 in 57ms (compile: 8ms, proxy.ts: 4ms, render: 45ms)
+ ✓ Compiled in 41ms
+ GET /en 200 in 604ms (compile: 164ms, proxy.ts: 5ms, render: 435ms)
+ GET /zh 200 in 65ms (compile: 10ms, proxy.ts: 9ms, render: 47ms)
+ GET /en 200 in 43ms (compile: 7ms, proxy.ts: 4ms, render: 32ms)
+ GET /zh 200 in 49ms (compile: 7ms, proxy.ts: 5ms, render: 37ms)
+ HEAD /en 200 in 71ms (compile: 7ms, proxy.ts: 3ms, render: 61ms)
+ GET /en 200 in 48ms (compile: 8ms, proxy.ts: 5ms, render: 35ms)
