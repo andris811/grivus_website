@@ -11,7 +11,39 @@
   },
   "testimonials": {
     "title": "Loved by Thousands",
-    "subtitle": "See what our users have to say"
+    "subtitle": "See what our users have to say",
+    "items": [
+      {
+        "text": "The home screen widgets are a game changer! I can log my habits without even opening the app. My streak has never been longer!",
+        "author": "Sarah Mitchell",
+        "flag": "🇺🇸"
+      },
+      {
+        "text": "Finally, a habit tracker that understands my schedule changes. The smart streak tracking is brilliant—it doesn't punish me for taking planned breaks.",
+        "author": "Thomas Müller",
+        "flag": "🇩🇪"
+      },
+      {
+        "text": "The heatmap view is so motivating! Seeing my progress visualized keeps me coming back every day. Best habit tracker I've used.",
+        "author": "Yuki Tanaka",
+        "flag": "🇯🇵"
+      },
+      {
+        "text": "I love how I can customize each habit with colors and icons. Makes tracking feel personal and fun. The widgets are super useful too!",
+        "author": "Lucas Silva",
+        "flag": "🇧🇷"
+      },
+      {
+        "text": "The iCloud sync is seamless. I track on my iPhone in the morning and check progress on my iPad at night. Everything just works!",
+        "author": "Sophie Dubois",
+        "flag": "🇫🇷"
+      },
+      {
+        "text": "Simple, beautiful, and effective. The statistics help me understand my patterns. Worth every penny for the Pro version!",
+        "author": "Raj Patel",
+        "flag": "🇮🇳"
+      }
+    ]
   },
   "features": {
     "title": "Powerful Features",
@@ -61,5 +93,102 @@
     "termsPrivacy": "Terms & Privacy",
     "contact": "Contact",
     "copyright": "Grivus. All rights reserved."
+  },
+  "legal": {
+    "backToHome": "Back to Home",
+    "title": "Grivus – Terms of Use & Privacy Policy",
+    "effectiveDate": "Effective Date:",
+    "effectiveDateValue": "September 29, 2025",
+    "lastUpdated": "Last updated:",
+    "lastUpdatedValue": "October 10, 2025",
+    "welcome": "Welcome to Grivus, a personal habit tracker designed to help you build routines, stay consistent, and celebrate your progress. By using Grivus, you agree to the following Terms of Use and Privacy Policy.",
+    "section1": {
+      "title": "🧭 1. General Terms",
+      "p1": "Grivus is developed and maintained by András Varga (AVDev).",
+      "p2": "The app is available exclusively through the Apple App Store and complies with Apple's developer and privacy guidelines.",
+      "p3": "These terms apply to all users of the app, whether using the free or Pro version."
+    },
+    "section2": {
+      "title": "📋 2. Terms of Use",
+      "s1": {
+        "title": "2.1. Use of the App",
+        "content": "Grivus is designed for personal productivity and self-improvement. You agree to use it responsibly and only for lawful purposes."
+      },
+      "s2": {
+        "title": "2.2. Ownership and Intellectual Property",
+        "content": "All content, design, and functionality of Grivus — including its name, logo, and user interface — are owned by András Varga (AVDev). You may not copy, modify, distribute, or sell any part of the app without prior written permission."
+      },
+      "s3": {
+        "title": "2.3. In-App Purchases",
+        "p1": "Grivus Pro is a one-time purchase that unlocks additional features such as unlimited habits, extended statistics, and widgets.",
+        "p2": "All transactions are processed securely through Apple's App Store. The developer does not collect or store any payment details. Refunds and billing issues are handled by Apple."
+      },
+      "s4": {
+        "title": "2.4. Limitation of Liability",
+        "content": "Grivus is provided \"as is\" without warranties of any kind. While every effort is made to ensure reliability and stability, the developer is not responsible for data loss, sync errors, or damages resulting from the use or inability to use the app."
+      },
+      "s5": {
+        "title": "2.5. Termination or Changes",
+        "content": "The developer reserves the right to modify or discontinue the app, features, or pricing at any time. Updates may be released to fix bugs, improve performance, or enhance user experience."
+      }
+    },
+    "section3": {
+      "title": "🔒 3. Privacy Policy",
+      "intro": "Grivus respects your privacy. This section explains how your information is handled.",
+      "s1": {
+        "title": "3.1. Information We Collect",
+        "personalData": "Personal Data:",
+        "personalDataText": "Grivus does not require you to create an account. We do not collect personally identifiable information (such as your name, email address, or phone number).",
+        "appData": "App Data:",
+        "appDataText": "Any data you enter (such as habits, reminders, or preferences) is stored locally on your device and is not transmitted to us.",
+        "analytics": "Analytics/Tracking:",
+        "analyticsText": "Grivus does not use third-party analytics, tracking, or advertising tools."
+      },
+      "s2": {
+        "title": "3.2. How We Use Your Data",
+        "p1": "Your data is only used within the app to provide habit tracking, reminders, and progress insights.",
+        "p2": "We do not sell, rent, or share your data with anyone."
+      },
+      "s3": {
+        "title": "3.3. Data Storage & Security",
+        "p1": "All habit data is stored locally on your device.",
+        "p2": "If you enable iCloud sync, your data will be securely stored in your Apple iCloud account, where Apple's iCloud Privacy Policy applies.",
+        "p3": "Deleting the app will remove your local data from your device. iCloud data can be removed via iOS Settings → Apple ID → iCloud → Manage Storage → Grivus."
+      },
+      "s4": {
+        "title": "3.4. Notifications",
+        "p1": "If you enable notifications, Grivus will schedule local reminders for your habits.",
+        "p2": "These are handled entirely on your device — no external servers or personal identifiers are involved."
+      },
+      "s5": {
+        "title": "3.5. Children's Privacy",
+        "content": "Grivus is not directed toward children under 13 and does not knowingly collect any data from them. If you believe a child has submitted data through the app, please contact us for assistance."
+      }
+    },
+    "section4": {
+      "title": "💳 4. Pro Features & Purchases",
+      "p1": "Grivus Pro unlocks additional features like unlimited habits, detailed statistics, and widgets.",
+      "p2": "Purchases are securely processed by Apple via the App Store.",
+      "p3": "The developer has no access to your payment details, and all refunds or billing issues must be handled through Apple Support."
+    },
+    "section5": {
+      "title": "⚖️ 5. Your Rights",
+      "p1": "Because Grivus does not collect any personal data directly, there is no account or server data to delete or export.",
+      "p2": "All information remains stored locally or in your iCloud account under your control."
+    },
+    "section6": {
+      "title": "🔄 6. Updates to This Policy",
+      "p1": "We may update this policy from time to time to reflect app improvements or legal requirements.",
+      "p2": "Any updates will appear within the app and on the official Grivus website or Notion page."
+    },
+    "section7": {
+      "title": "📬 7. Contact Us",
+      "intro": "If you have questions about these Terms or the Privacy Policy, please contact:",
+      "visitWebsite": "Visit my website and get in touch"
+    },
+    "footer": {
+      "copyright": "© 2025 András Varga (AVDev). All rights reserved.",
+      "tagline": "Grivus – Build Better Habits."
+    }
   }
 }

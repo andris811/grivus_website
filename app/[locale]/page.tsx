@@ -12,6 +12,11 @@ export default async function Home({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale });
+
+  // Load messages to get testimonials
+  const messages = (await import(`../../messages/${locale}.json`)).default;
+  const testimonials = messages.testimonials.items;
+
   return (
     <div className="min-h-screen bg-gray-950">
       {/* Navigation */}
@@ -124,7 +129,7 @@ export default async function Home({
               </p>
             </div>
           </ScrollAnimation>
-          <TestimonialCarousel />
+          <TestimonialCarousel testimonials={testimonials} />
         </div>
       </section>
 

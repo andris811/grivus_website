@@ -1,19 +1,18 @@
 'use client';
 
-'use client';
-
 import { useEffect, useRef } from 'react';
 
-const testimonials = [
-  { text: "The home screen widgets are a game changer! I can log my habits without even opening the app. My streak has never been longer!", author: "Sarah Mitchell", flag: "🇺🇸" },
-  { text: "Finally, a habit tracker that understands my schedule changes. The smart streak tracking is brilliant—it doesn't punish me for taking planned breaks.", author: "Thomas Müller", flag: "🇩🇪" },
-  { text: "The heatmap view is so motivating! Seeing my progress visualized keeps me coming back every day. Best habit tracker I've used.", author: "Yuki Tanaka", flag: "🇯🇵" },
-  { text: "I love how I can customize each habit with colors and icons. Makes tracking feel personal and fun. The widgets are super useful too!", author: "Lucas Silva", flag: "🇧🇷" },
-  { text: "The iCloud sync is seamless. I track on my iPhone in the morning and check progress on my iPad at night. Everything just works!", author: "Sophie Dubois", flag: "🇫🇷" },
-  { text: "Simple, beautiful, and effective. The statistics help me understand my patterns. Worth every penny for the Pro version!", author: "Raj Patel", flag: "🇮🇳" },
-];
+interface Testimonial {
+  text: string;
+  author: string;
+  flag: string;
+}
 
-export default function TestimonialCarousel() {
+interface TestimonialCarouselProps {
+  testimonials: Testimonial[];
+}
+
+export default function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
