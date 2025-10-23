@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects
+# Fallback for root to English (in case JavaScript is disabled)
+/  /en  302
