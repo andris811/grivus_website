@@ -47,8 +47,7 @@ export default function LanguageSelector() {
         className="flex items-center gap-1.5 px-2 py-1.5 md:px-3 md:py-2 rounded-lg bg-gray-800 md:bg-transparent hover:bg-gray-700 transition-colors text-gray-300 hover:text-[#4CD3B7]"
         aria-label="Select language"
       >
-        <span className="text-lg md:text-base">{currentLanguage.flag}</span>
-        <span className="hidden md:inline text-sm">{currentLanguage.name}</span>
+        <span className="text-sm font-medium uppercase">{currentLanguage.code}</span>
         <svg
           className={`hidden md:block w-3 h-3 transition-transform ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
