@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Grivus - Smart Habit Tracker for iOS",
   description:
     "Build better habits with Grivus. Track daily habits, visualize progress, smart streaks, iCloud sync, and flexible scheduling.",
+  verification: {
+    google: "KiAd4-gueNYN1jYFiSJ6WTRe5HXB5t-f99zFGTctmnY",
+  },
 };
 
 export default async function LocaleLayout({
