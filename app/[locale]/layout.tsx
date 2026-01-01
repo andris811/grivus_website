@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/i18n";
 import IntlProvider from "../components/IntlProvider";
+import GoogleAnalytics from "../components/GoogleAnalytics";
 import "../globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -37,6 +38,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <GoogleAnalytics />
         <IntlProvider messages={messages} locale={locale}>
           {children}
         </IntlProvider>
