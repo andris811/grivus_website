@@ -89,6 +89,15 @@
       "description": "用图标和颜色个性化"
     }
   },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "对 Grivus 有疑问？我们很乐意为您解答",
+    "support": {
+      "title": "支持",
+      "description": "需要帮助？联系我们的支持团队",
+      "email": "avdev2024@gmail.com"
+    }
+  },
   "footer": {
     "termsPrivacy": "条款与隐私",
     "contact": "联系",

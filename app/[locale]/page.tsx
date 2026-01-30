@@ -207,8 +207,55 @@ export default async function Home({
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section id="contact" className="py-20 sm:py-24 lg:py-32 bg-gray-900 border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ScrollAnimation>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+                {t('contact.title')}
+              </h2>
+              <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+                {t('contact.subtitle')}
+              </p>
+            </div>
+          </ScrollAnimation>
+
+          <div className="max-w-2xl mx-auto">
+            <ScrollAnimation delay={200}>
+              <div className="bg-gray-950 border border-gray-800 p-8 rounded-2xl hover:shadow-2xl hover:border-[#4CD3B7]/50 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="text-[#4CD3B7] mt-1">
+                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-semibold text-white mb-2">
+                      {t('contact.support.title')}
+                    </h3>
+                    <p className="text-gray-400 mb-4">
+                      {t('contact.support.description')}
+                    </p>
+                    <a
+                      href={`mailto:${t('contact.support.email')}`}
+                      className="inline-flex items-center gap-2 text-[#4CD3B7] hover:text-[#3BBFA3] transition-colors font-medium"
+                    >
+                      <span>{t('contact.support.email')}</span>
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </ScrollAnimation>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
-      <footer id="contact" className="bg-black border-t border-gray-800 text-white py-12">
+      <footer className="bg-black border-t border-gray-800 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex flex-col items-center md:items-start gap-4">

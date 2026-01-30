@@ -89,6 +89,15 @@
       "description": "Personalize with icons and colors"
     }
   },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions about Grivus? We'd love to hear from you",
+    "support": {
+      "title": "Support",
+      "description": "Need help? Contact our support team",
+      "email": "avdev2024@gmail.com"
+    }
+  },
   "footer": {
     "termsPrivacy": "Terms & Privacy",
     "contact": "Contact",

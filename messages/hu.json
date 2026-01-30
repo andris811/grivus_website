@@ -89,6 +89,15 @@
       "description": "Szabd személyre ikonokkal és színekkel"
     }
   },
+  "contact": {
+    "title": "Lépj kapcsolatba",
+    "subtitle": "Kérdésed van a Grivussal kapcsolatban? Szívesen válaszolunk",
+    "support": {
+      "title": "Támogatás",
+      "description": "Segítségre van szükséged? Lépj kapcsolatba a támogatási csapatunkkal",
+      "email": "avdev2024@gmail.com"
+    }
+  },
   "footer": {
     "termsPrivacy": "Feltételek és Adatvédelem",
     "contact": "Kapcsolat",
